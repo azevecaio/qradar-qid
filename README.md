@@ -14,7 +14,7 @@ Move or rename config_example.ini and fill with your information
 * A sample data will appear to config that everything it is good, confirm with 1 if everything ok.
 * See the magic!
 
-<img src="https://github.com/azevecaio/qradar-qid/blob/main/qradar-qid-gif.gif" width="40" height="40" />
+<img src="https://github.com/azevecaio/qradar-qid/blob/main/qradar-qid-gif.gif" width="1080" height="1080" />
 
 ## Autors
 * **Caio de Paula Azevedo Martins dos Santos** - [Perfil](https://github.com/azevecaio)
