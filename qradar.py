@@ -1,4 +1,4 @@
-import requests, json
+import requests, json, sys
 from log import log
 
 requests.packages.urllib3.disable_warnings()
@@ -36,7 +36,11 @@ class Qradar():
 
         response = requests.get(url=self.URL+URI, headers=self.headers, params=params, verify=False)
         self.logger.debug(response.json())
-        return response.json()
+        if response.status_code == 200:
+            return response.json()
+        else:
+            print(response.text)
+            sys.exit(1)
 
     def createQid(self, line):
         '''Creatig QID '''
