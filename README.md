@@ -10,10 +10,10 @@ Get the file qradar-template.xlsx as a template or model and fill with your appl
 Move or rename config_example.ini and fill with your information
 
 ## Execution
-
 * python main.py
-* A sample data will appear to config that everything it is good.
-* Confirm with 1 
+* A sample data will appear to config that everything it is good, confirm with 1 if everything ok.
+* See the magic!
+
 
 ## Autors
 * **Caio de Paula Azevedo Martins dos Santos** - [Perfil](https://github.com/azevecaio)
