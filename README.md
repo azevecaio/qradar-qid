@@ -7,7 +7,7 @@ pip install -r requirements.txt
 ## Configuration change
 Get the file qradar-template.xlsx as a template or model and fill with your application data
 
-Move or rename config_example.ini and fill with your information
+Move or rename config_example.ini to config.ini and fill with your information
 
 ## Execution
 * python main.py
